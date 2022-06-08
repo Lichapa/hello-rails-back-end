@@ -1,6 +1,6 @@
 class MessagesController < ApplicationController
   def index
-    messages = Message.order("created_at DESC")
+    messages = Message.order('RANDOM()').first
     render json: messages
   end
 
@@ -22,6 +22,7 @@ class MessagesController < ApplicationController
   end
 
   private
+
   def message_param
     params.require(:message).permit(:greeting)
   end
