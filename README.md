@@ -1,24 +1,56 @@
-# README
+# Budget Rails app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project, I create a React front-end with a Rails back-end and connect them to display a random message
 
-Things you may want to cover:
+- [The front end](https://github.com/Lichapa/hello-react-front-end/)
+# Built with
+- Ruby
+- ROR
 
-* Ruby version
+# Setup Instructions
 
-* System dependencies
+## prerequisite
+Have the following installed:
+- Git
+- Ruby
+- Ruby on rails
+## Clone and review it
 
-* Configuration
+Run the following commands to clone and run it.
 
-* Database creation
+### To clone the repository
 
-* Database initialization
+`git clone git@github.com:Lichapa/hello-rails-back-end.git`
 
-* How to run the test suite
+### To enter Directory
 
-* Services (job queues, cache servers, search engines, etc.)
+`cd hello-rails-back-end`
 
-* Deployment instructions
+### To Install Gems
 
-* ...
+`bundle install`
+
+### running the program
+- Open terminal and run `rails s`
+
+## Author
+
+👤 **Mphatso**
+
+- GitHub: [@Lichapa](https://github.com/Lichapa) 
+- Twitter: [@LichapaMphatso](https://twitter.com/LichapaMphatso) 
+- LinkedIn: [mphatsolichapa](https://www.linkedin.com/in/mphatsolichapa) 
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
